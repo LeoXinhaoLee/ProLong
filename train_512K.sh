@@ -17,7 +17,7 @@ domains=(
     thestackv1_concat_by_repo2-65536@0.15
     book2-524288@0.05
     book2-65536@0.25
-    fineweb-edu-100B@0.1
+    fineweb-edu@0.1
     fineweb-2023-50@0.1
     stackexchange@0.04
     dolmawiki@0.04
@@ -31,7 +31,7 @@ domains_name=ProLong512KMix
 
 bsz=${BSZ:-128} # * 512K (seq len) / 8 (seq parallel size) = 8M
 seq=${SEQ:-1}
-lr=${LR:-1e-5}
+lr=${LR:-5e-6}
 steps=${STEPS:-2500}
 save_steps=${SAVE:-125}
 warmup=${WARMUP:-0.1}
