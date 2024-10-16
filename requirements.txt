@@ -19,5 +19,4 @@ wandb==0.17.3
 zstandard==0.22.0
 zstd==1.5.5.1
 
-flash-attn==2.6.1, --config-settings=--global-option="--no-build-isolation" 
-rotary-emb @ git+https://github.com/Dao-AILab/flash-attention.git@9356a1c0389660d7e231ff3163c1ac17d9e3824a#subdirectory=csrc/rotary
+

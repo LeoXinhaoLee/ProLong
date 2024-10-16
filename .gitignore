@@ -167,3 +167,4 @@ cython_debug/
 data/
 data/
 prolong-data-512K/
+test*
